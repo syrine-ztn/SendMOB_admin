@@ -1,0 +1,134 @@
+/* recuperer Container */
+.recupererContainer {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  right:0px;
+  top: 0px;
+}
+
+/* recuperer Card */
+.recupererCard {
+  position: relative;
+  max-width: 40vw;
+  width: 478px;
+  height: 250px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Rectangle 76 */
+.rectangle76 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+/* recuperer Header */
+.recupererHeader {
+  position: absolute;
+  max-width: 30vw;
+  width: 300px;
+  height: 60px;
+  left: 50%;
+  top: -12%;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, #85D988 0%, #31754C 99.97%, #4C8159 99.98%, #4C855A 99.99%, #4DA766 100%);
+  border-radius: 20px;
+
+}
+
+
+.recupererHeaderText {
+  text-align: center;
+  position: absolute;
+  width: 250px;
+  height: 31px;
+  left: 50%;
+  top: -7%;
+  transform: translateX(-50%);
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  max-width: 30vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Frame 48095631 */
+.frame48095631 {
+  max-width: 30vw;
+  display: flex;
+  align-items: center; /* Center the content horizontally */
+  justify-content: center;
+  padding: 0px;
+  gap: 39px;
+  position: absolute;
+  width: 442px;
+  height: 373px;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%);
+}
+
+
+/* Renvoyer le lien */
+.renvoyerLien {
+  position: absolute;
+  width: 100%;
+  height: 25px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #707EAE;
+  bottom: 50%;
+}
+
+/* renvoyerLien lien */
+.renvoyerLien span {
+  text-decoration: none;
+  color: #54B848;
+ 
+}
+
+
+.recupererText {
+  top: 20px;
+  position: absolute;
+  width: 100%;
+  height: 25px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #707EAE;
+}
+
+
+.renvoyerLien,
+.recupererText {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #707EAE;
+  margin-top: 25px; /* Default margin */
+  bottom: 55%;
+
+  /* Additional margin when window is resized */
+  @media (max-width: 768px) {
+    margin-top: 0px;
+  }
+}

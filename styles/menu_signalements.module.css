@@ -1,0 +1,383 @@
+/* Frame 66 */
+.frame66 {
+    position:fixed;
+    width: 256px;
+    height: 511px;
+    left: 0px;
+    top: 0px;
+  }
+
+  
+  /* Group 155 */
+  .group155 {
+    position: absolute;
+    width: 256px;
+    height: 511px;
+    left: -6px;
+    top: 0px;
+  }
+  
+  /* Frame 65 */
+  .frame65 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 40px;
+    gap: 60px;
+    position: absolute;
+    width: 256px;
+    height: 511px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+  }
+  
+  /* Text */
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    width: 124.58px;
+    height: 49.47px;
+  }
+  
+  /* SendMOB */
+  .sendMOB {
+    width: 124.58px;
+    height: 19.47px;
+  }
+  
+  /* Image 1 */
+  .image1 {
+    position: absolute;
+    top: 100px;
+    width: 71.82px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-image: url(./../public/mobilis.png);
+  }
+  
+  /* Frame 58 */
+  .frame58 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    width: 201px;
+    height: 634.3px;
+    margin: 0 auto;
+  }
+  
+  /* Frame 64 */
+  .frame64 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 0 auto;
+    width: 184px;
+    height: 360px;
+  }
+  
+  /* Frame 56 */
+  .frame56 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    width: 154px;
+    height: 35px;
+    margin-bottom: 130px;
+  }
+  
+  /* Icon */
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
+  
+  
+  /* Pagetitle */
+  .pageTitle1 {
+    top: 60px;
+    left: 105px;
+    position: absolute;
+    width: 104px;
+    height: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #2B3674;
+  }
+  
+  /* Frame 57 */
+  .frame57 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    width: 117px;
+    height: 35px;
+    text-decoration: none;
+  }
+  
+  /* heroicons */
+  .heroicons {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image: url(./../public/dashboard.png);
+  }
+ 
+  
+  /* Pagetitle */
+  .pageTitle2 {
+    width: 67px;
+    height: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #B8B8B8;
+  }
+  
+  /* Frame 58 */
+  .frame58 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    width: 252px;
+    height: 35px;
+    text-decoration: none;
+  }
+  
+  /* material-symbols */
+  .clients {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image: url(./../public/clients.png);
+  }
+  
+  
+  /* Pagetitle */
+  .pageTitle3 {
+    width: 222px;
+    height: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #B8B8B8;
+  }
+  
+  /* Frame 59 */
+  .frame59 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    width: 184px;
+    height: 35px;
+    text-decoration: none;
+  }
+  
+  /* solar */
+  .moderateurs {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image: url(./../public/moderateurs.png);
+  }
+  
+  
+  /* Pagetitle */
+  .pageTitle4 {
+    width: 134px;
+    height: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #B8B8B8;
+  }
+  
+  /* Frame 61 */
+  .frame61 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    width: 178px;
+    height: 35px;
+    text-decoration: none;
+  }
+  
+  /* material-symbols */
+  .materialSymbols {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image: url(./../public/abonnements.png);
+  }
+  
+ 
+  /* Pagetitle */
+  .pageTitle5 {
+    width: 128px;
+    height: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #B8B8B8;
+  }
+  
+  /* Frame 62 */
+  .frame62 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    width: 159px;
+    height: 35px;
+    text-decoration: none;
+  }
+  
+  /* ant-design */
+  .antDesign {
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image: url(./../public/report_green.png);
+  }
+  
+
+  
+  /* Pagetitle */
+  .pageTitle6 {
+    width: 109px;
+    height: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #54B848;
+  }
+  
+  /* Frame 63 */
+  .frame63 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+    width: 201px;
+    height: 35px;
+    text-decoration: none;
+  }
+  
+  /* solar */
+  .solar {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image: url(./../public/parametres.png);
+  }
+ 
+  
+  /* Pagetitle */
+  .pageTitle7 {
+    width: 151px;
+    height: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #B8B8B8;
+  }
+  
+  /* Frame 68 */
+  .frame68 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 300px;
+    position: absolute;
+    width: 340px;
+    height: 39px;
+    left: -6px;
+    top: 410px;
+    text-decoration: none;
+  }
+  
+  /* Active */
+  .active {
+    margin: 0 auto;
+    width: 12px;
+    height: 39px;
+    background: #54B848;
+    border-radius: 25px;
+  }
+  
+
+  .deconnecter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    width: 201px;
+    height: 35px;
+    text-decoration: none;
+  }
+  
+  
+  .iconDeconnecter {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image: url(./../public/deconnecter.png);
+  }
+ 
+  
+ 
+  .pageTitle8 {
+    width: 151px;
+    height: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #B8B8B8;
+  }

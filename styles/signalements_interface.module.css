@@ -1,0 +1,874 @@
+
+/* Default styles */
+.container {
+  position: absolute;
+  width: 120%;
+  height: 150%;
+  left: 329px;
+  top: 0px;
+  background-color: #F4F7FE;
+}
+
+/* Additional styles for smaller screens */
+@media (max-width: 768px) or (max-height: 200px) {
+  .container {
+      position: absolute;
+      width: 350%;
+      height: 1055%;
+      left: 329px;
+      top: 0px;
+      background-color: #F4F7FE;
+  }
+}
+
+/* Additional styles for medium-sized screens */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .container {
+      position: absolute;
+      width: 300%;
+      height: 1955%;
+      left: 329px;
+      top: 0px;
+      background-color: #F4F7FE;
+  }
+}
+
+/* Additional styles for smaller-sized screens */
+@media (max-height: 499px) {
+  .container {
+      position: absolute;
+      width: 400%;
+      height: 2300%;
+      left: 329px;
+      top: 0px;
+      background-color: #F4F7FE;
+  }
+}
+
+
+/* Additional styles for larger screens */
+@media (min-width: 1201px) and (min-height: 500px) {
+  .container {
+      position: absolute;
+      width: 125%;
+      height: 160%;
+      left: 329px;
+      top: 0px;
+      background-color: #F4F7FE;
+  }
+}
+
+
+
+
+
+  /*Component 1*/
+ /* dashboard_interface.module.css */
+
+.dashboardInterface {
+
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 74.2%;
+    height: 68px;
+    left: 50px;
+    top: 42px;
+  }
+  
+  .pageTitle {
+    width: 160px;
+    height: 24px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #707EAE;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .statistiques {
+    position: absolute;
+    top: 70px;
+    width: 375px;
+    height: 42px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    color: #2B3674;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .misc {
+    margin: 0 auto;
+    width: 470px;
+    height: 68px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .rectangle356 {
+    position: absolute;
+    width: 470px;
+    height: 68px;
+    left: 950px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+    border-radius: 30px;
+  }
+  
+  .searchContainer {
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 347.7px;
+    height: 46px;
+    position: absolute;
+    right: 730.45px;
+    top: 11.15px;
+  }
+  
+  .largeInput {
+    width: 287px;
+    height: 46px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .background {
+    position: absolute;
+    left: 0.1%;
+    right: -0.1%;
+    top: 0.64%;
+    bottom: -0.64%;
+    background: #F4F7FE;
+    border-radius: 49px;
+  }
+  
+  .searchIcon {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 7px;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-image: url(./../public/search.png);
+  }
+  
+ 
+  
+  .text {
+    margin-left: 30px;
+    width: 79px;
+    height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background-color: #F4F7FE;
+    text-decoration: none; /* Remove text decoration */
+    border: none; /* Remove the border */
+    outline: none; /* Remove the outline when focused */
+  }
+  
+  
+  .notificationsIcon {
+    position: absolute;
+    right: -80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .notification {
+    position: absolute;
+    left: 18.39%;
+    right: 18.39%;
+    top: 10.42%;
+    bottom: 8.33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./../public/notification.png);
+  }
+  
+  .notificationStyle {
+    
+    position: absolute;
+    left: 18.39%;
+    right: 18.39%;
+    top: 10.42%;
+    bottom: 8.33%;
+  }
+  
+  .notificationLink {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+
+
+
+
+
+  /*Component 2*/
+
+/* Button */
+.dateButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0px;
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  margin-left: 1340px;
+  top: 130px;
+  background: #FFFFFF;
+  box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/* bar_chart */
+.icon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./../public/calendrier.png);
+  width: 24px;
+  height: 24px;
+  margin-left: 15px;
+}
+
+
+/* Créer un nouveau compte client */
+.dateButton .buttonText {
+  width: 115px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #344767;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+  
+  
+/*Component 3*/
+  
+/* signalementsTableContainer */
+.signalementsTableContainer {
+  margin-top: 220px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px 0;
+  gap: 10px;
+  width: 1420px;
+  height: 560px;
+  background: #FFFFFF;
+  box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+  border-radius: 12px;
+}
+
+/* tableHeader */
+.tableHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 10px 35px;
+  gap: 65px;
+  width: 1385px;
+  height: 47px;
+  background: #FFFFFF;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 2px solid #F4F7FE;
+}
+
+/* tableColumn */
+.tableColumn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 0 0px;
+  gap: 90px;
+  width: 200px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+  text-wrap: nowrap;
+}
+
+/* Header for signalementId */
+.signalement_id {
+  width: 60px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.ID {
+  width: 37px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+/* Header for client */
+.corporation_name {
+  width: 122px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+  text-align: left;
+}
+
+/* Header for entete */
+.entete {
+  width: 460px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+  text-align: left;
+  overflow: hidden;
+  text-wrap: nowrap;
+  text-overflow:ellipsis;
+}
+
+
+/* Header for entete */
+.Entête {
+  width: 160px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+  text-align: left;
+  margin-left: 65px;
+  margin-right: 100px;
+}
+
+/* Header for dateEnvoi */
+.date_envoi {
+  width: 140px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+
+.date {
+  width: 50px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+  text-align: left;
+  text-wrap: nowrap;
+  margin-right: 28px;
+}
+
+
+/* Header for action */
+.action {
+  margin-right: 50px;
+  width: 54px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+}
+
+.marquer {
+  width: 140px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+  text-wrap: nowrap;
+}
+
+
+.Traitement {
+  width: 50px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+  margin-left: 40px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+
+
+.markButtonTraite {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  box-shadow: 0px 7px 16px rgba(0, 0, 0, 0.14);
+  background-color: #54B848;
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid #54B848;
+
+  border-radius: 20px;
+}
+
+.markButtonNonTraite {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.279);
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.279);
+  cursor: pointer;
+  box-shadow: 0px 7px 16px rgba(0, 0, 0, 0.14);
+}
+
+.traiteOui {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+
+  color: #54B848;
+  font-weight: bold;
+}
+
+.traiteNon {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+
+  color: #F65656;
+  font-weight: bold;
+}
+
+
+.traite {
+  width: 20px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+}
+
+
+.Traité {
+  
+  width: 20px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+  
+}
+
+
+
+.objet {
+  width: 300px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+  text-align: left;
+}
+
+
+.Objet {
+  width: 100px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+  text-align: left;
+}
+
+/* action */
+th.action {
+  width: 54px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+}
+
+/* action */
+.Action {
+  width: 54px;
+  height: 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #344767;
+  margin-left: 25px;
+}
+
+td.action {
+  margin-left: 18px;
+  width: 17px;
+  height: 17px;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  background-image: url(./../public/greenEye.png);
+}
+
+button.action {
+  width: 0px;
+  height: 19px;
+  opacity: 0;
+}
+
+
+/* dataShow (rows) */
+.dataShow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 0 35px;
+  gap: 65px;
+  width: 1385px;
+  height: 47px;
+  border-bottom: 1px solid #F4F7FE;
+}
+
+.dataShow:last-child {
+  border:none;
+}
+
+/* Page */
+.page {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 16px;
+  position: absolute;
+  width: 201px;
+  height: 35px;
+  left: 1265px;
+  margin-top: 50px;
+}
+
+/* arrow / chevron_big_down */
+.page .chevronDown {
+ /* arrow symbol */
+
+  box-sizing: border-box;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  width: 7px;
+  height: 14px;
+
+  
+  background-image: url(./../public/arrow_black.png);
+
+}
+
+/* 01 */
+.page .circle {
+  width: 35px;
+  height: 35px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  background: #54B848;
+  box-shadow: 0px 7px 16px rgba(0, 0, 0, 0.14);
+  border-radius: 40px;
+  position: absolute;
+  left: calc(50% - 35px/2 - 51px);
+  top: 0px;
+}
+
+/* 1 */
+.page .text1 {
+  position: absolute;
+  width: 7px;
+  height: 23px;
+  left: 13px;
+  top: calc(50% - 23px/2);
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+/* 02 */
+.page .circle2 {
+  width: 35px;
+  height: 35px;
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  position: absolute;
+  background: transparent;
+  box-sizing: border-box;
+  border: 2px solid #B8B8B8;
+  border-radius: 40px;
+  left: calc(50% - 35px/2);
+  top: 0px;
+}
+
+/* 2 */
+.page .text2 {
+  position: absolute;
+  width: 11px;
+  height: 23px;
+  left: calc(50% - 11px/2);
+  top: calc(50% - 23px/2 - 0px);
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #B8B8B8;
+}
+
+/* 03 */
+.page .circle3 {
+  width: 35px;
+  height: 35px;
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  position: absolute;
+  background: transparent;
+  box-sizing: border-box;
+  border: 2px solid #B8B8B8;
+  border-radius: 40px;
+  left: calc(50% - 35px/2 + 51px);
+  top: 0px;
+}
+
+/* 3 */
+.page .text3 {
+  position: absolute;
+  width: 11px;
+  height: 23px;
+  left: 11px;
+  top: calc(50% - 23px/2 - 0px);
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #B8B8B8;
+}
+
+/* arrow / chevron_big_down */
+.page .chevronUp {
+  /* arrow symbol */
+
+  box-sizing: border-box;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  width: 7px;
+  height: 14px;
+  margin-left: 192px;
+  
+  background-image: url(./../public/arrow_black2.png);
+}
+
+.chevronUp button {
+  width: 0px;
+  height: 19px;
+  opacity: 0;
+}
+
+.chevronDown button {
+  width: 0px;
+  height: 19px;
+  opacity: 0;
+}
+
+.circle button {
+  width: 35px;
+  height: 35px;
+  opacity: 0;
+}
+
+.circle2 button {
+  width: 35px;
+  height: 35px;
+  opacity: 0;
+}
+
+.circle3 button {
+  width: 35px;
+  height: 35px;
+  opacity: 0;
+}
+
+
+
+
+
+.group2220 {
+  position: absolute;
+  width: 657px;
+  height: 435px;
+}
+
+.rectangle4429 {
+  position: absolute;
+  width: 957px;
+  height: 335px;
+  margin-top: 100px;
+  margin-left: 410px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+.phX {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  margin-top: 15px;
+  margin-left: 910px;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  background-image: url(./../public/X.png);
+}
+
+.frame1000001834 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  position: absolute;
+  width: 857px;
+  height: 235px;
+  left: 50px;
+  top: 30px;
+}
+
+
+.Message {
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: #344767;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+

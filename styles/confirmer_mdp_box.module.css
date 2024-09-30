@@ -1,0 +1,223 @@
+/* Confirmer Password Container */
+.ConfirmerPasswordContainer {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  right:0px;
+  top: 0px;
+}
+
+/* Confirmer Password Card */
+.ConfirmerPasswordCard {
+  position: relative;
+  max-width: 40vw;
+  width: 478px;
+  height: 400px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Rectangle 76 */
+.rectangle76 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+/* Confirmer Password Header */
+.ConfirmerPasswordHeader {
+  position: absolute;
+  max-width: 30vw;
+  width: 300px;
+  height: 60px;
+  left: 50%;
+  top: -7%;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, #85D988 0%, #31754C 99.97%, #4C8159 99.98%, #4C855A 99.99%, #4DA766 100%);
+  border-radius: 20px;
+}
+
+/* Compte Verifie */
+.CompteVerifie {
+  text-align: center;
+  position: absolute;
+  width: 144px;
+  height: 31px;
+  left: 50%;
+  top: -7%;
+  transform: translateX(-50%);
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+/* Frame 48095631 */
+.frame48095631 {
+  max-width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 39px;
+  position: absolute;
+  width: 442px;
+  height: 373px;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%);
+}
+
+/* Frame 48095630 */
+.frame48095630 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+  width: 100%;
+  max-width: 30vw;
+}
+
+/* Frame 48095628 */
+.frame48095628 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+  width: 100%;
+  max-width: 30vw;
+}
+
+/* Frame 77 */
+.frame77 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  width: 90%;
+  height: 20px;
+  border: 1px solid #E7E7E7;
+  border-radius: 20px;
+  margin-top: 7%;
+}
+
+/* password */
+.password {
+  width: 214px;
+  height: 25px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #6e6d6d;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: none;
+  outline: none;
+}
+
+/* Frame 78 */
+.frame78 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  width: 90%;
+  height: 20px;
+  border: 1px solid #E7E7E7;
+  border-radius: 20px;
+}
+
+/* Mot de passe */
+.motDePasse {
+  width: 193px;
+  height: 25px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #6e6d6d;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: none;
+  outline: none;
+}
+
+
+.motDePasse::placeholder,.password::placeholder {
+  color: #B8B8B8;
+}
+
+
+/* solar:eye-linear */
+.solarEyeLinear {
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+}
+
+
+/* Btn Bg */
+.btnBg {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 60.42%;
+  bottom: 23.16%;
+  background: #54B848;
+  border-radius: 20px;
+}
+
+/* Text */
+.text {
+  position: absolute;
+  width: 100%;
+  height: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border: none;
+  outline: none;
+}
+
+
+.errorMessage {
+  top: 160px;
+  left: 0;
+  position: absolute;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  color: #F65656;
+  }
+
+.errorBorder {
+  border-color: #F65656;
+}
+  

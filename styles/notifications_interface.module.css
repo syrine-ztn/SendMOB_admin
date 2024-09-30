@@ -1,0 +1,365 @@
+
+/* Default styles */
+.container {
+  position: absolute;
+  width: 130%;
+  height: 180%;
+  left: 329px;
+  top: 0px;
+  background-color: #F4F7FE;
+}
+
+/* Additional styles for smaller screens */
+@media (max-width: 768px) or (max-height: 200px) {
+  .container {
+      position: absolute;
+      width: 350%;
+      height: 1055%;
+      left: 329px;
+      top: 0px;
+      background-color: #F4F7FE;
+  }
+}
+
+/* Additional styles for medium-sized screens */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .container {
+      position: absolute;
+      width: 300%;
+      height: 1955%;
+      left: 329px;
+      top: 0px;
+      background-color: #F4F7FE;
+  }
+}
+
+/* Additional styles for smaller-sized screens */
+@media (max-height: 499px) {
+  .container {
+      position: absolute;
+      width: 400%;
+      height: 2300%;
+      left: 329px;
+      top: 0px;
+      background-color: #F4F7FE;
+  }
+}
+
+
+/* Additional styles for larger screens */
+@media (min-width: 1201px) and (min-height: 500px) {
+  .container {
+      position: absolute;
+      width: 130%;
+      height: 220%;
+      left: 329px;
+      top: 0px;
+      background-color: #F4F7FE;
+  }
+}
+
+
+
+
+
+  /*Component 1*/
+ /* dashboard_interface.module.css */
+
+.dashboardInterface {
+
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 74.2%;
+    height: 68px;
+    left: 50px;
+    top: 42px;
+  }
+  
+  .pageTitle {
+    width: 160px;
+    height: 24px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #707EAE;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-wrap: nowrap;
+  }
+  
+  .statistiques {
+    position: absolute;
+    top: 70px;
+    width: 375px;
+    height: 42px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    color: #2B3674;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-wrap: nowrap;
+  }
+  
+  .misc {
+    margin: 0 auto;
+    width: 470px;
+    height: 68px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .rectangle356 {
+    position: absolute;
+    width: 470px;
+    height: 68px;
+    left: 1055px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+    border-radius: 30px;
+  }
+  
+  .searchContainer {
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 347.7px;
+    height: 46px;
+    position: absolute;
+    right: 730.45px;
+    top: 11.15px;
+  }
+  
+  .largeInput {
+    width: 287px;
+    height: 46px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .background {
+    position: absolute;
+    left: 0.1%;
+    right: -0.1%;
+    top: 0.64%;
+    bottom: -0.64%;
+    background: #F4F7FE;
+    border-radius: 49px;
+  }
+  
+  .searchIcon {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 7px;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-image: url(./../public/search.png);
+  }
+  
+ 
+  
+  .textrecherche {
+    margin-left: 30px;
+    width: 79px;
+    height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background-color: #F4F7FE;
+    text-decoration: none; /* Remove text decoration */
+    border: none; /* Remove the border */
+    outline: none; /* Remove the outline when focused */
+  }
+  
+  
+  .notificationsIcon {
+    position: absolute;
+    right: -80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .notification {
+    position: absolute;
+    left: 18.39%;
+    right: 18.39%;
+    top: 10.42%;
+    bottom: 8.33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./../public/notification.png);
+  }
+  
+  .notificationStyle {
+    
+    position: absolute;
+    left: 18.39%;
+    right: 18.39%;
+    top: 10.42%;
+    bottom: 8.33%;
+  }
+  
+  .notificationLink {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+
+
+
+
+
+
+
+  /*Component 2*/
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 20px;
+    position: absolute;
+    width: 100%;
+    max-width: 1490px;
+    left: 50px;
+    top: 200px;
+  }
+  
+  .widgets-set {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 20px 16px;
+    gap: 16px;
+    width: 100%;
+    height: auto;
+    background: white;
+    box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
+    border-radius: 16px;
+  }
+  
+  .emj-branded-frame-32 {
+  
+    width: 65px;
+    height: 58px;
+    background: rgba(84, 184, 72, 0.2);
+    border-radius: 16px;
+    position: relative;
+  }
+  
+  .notification2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 14px;
+    top: 13.9px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./../public/notificationGreen.png);
+  }
+  
+  .fill-1 {
+    position: absolute;
+    left: 14.58%;
+    right: 14.58%;
+    top: 8.33%;
+    bottom: 25.03%;
+    background: #54B848;
+  }
+  
+  .fill-4 {
+    position: absolute;
+    left: 37.81%;
+    right: 37.92%;
+    top: 79.78%;
+    bottom: 8.33%;
+    background: #54B848;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+  }
+  
+  .text-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .title { 
+    width: 187px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #344767;
+    text-wrap: nowrap;
+  }
+  
+  .body {
+    width: 100%;
+    height: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #344767;
+  }
+  
+  .additional-info {
+    width: 84px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+    text-align: right;
+    color: #344767;
+    text-wrap: nowrap;
+  }
+
+
+  /* Ajouter ces styles dans notifications_interface.module.css */
+
+.viewed {
+  /* Styles pour les notifications vues */
+  background-color: #f0f0f0; /* Exemple de couleur pour les notifications vues */
+}
+
+.notViewed {
+  /* Styles pour les notifications non vues */
+  background-color: #ffffff; /* Exemple de couleur pour les notifications non vues */
+}
